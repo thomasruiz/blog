@@ -1,0 +1,11 @@
+<div class="gif-container">
+    <video autoplay loop muted playsinline>
+        {{ if .IsNamedParams }}
+        <source src="https://media.giphy.com/media/{{ .Get "id" }}/giphy.mp4" type="video/mp4">
+        <img src="https://media.giphy.com/media/{{ .Get "id" }}/giphy.gif" title="Your browser does not support html5 videos.">
+        {{ else }}
+        <source src="https://media.giphy.com/media/{{ .Get 0 }}/giphy.mp4" type="video/mp4">
+        <img src="https://media.giphy.com/media/{{ .Get 0 }}/giphy.gif" title="Your browser does not support html5 videos.">
+        {{ end }}
+    </video>
+</div>

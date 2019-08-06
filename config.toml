@@ -1,7 +1,7 @@
 baseURL = "https://blog.thomasruiz.fr/"
 languageCode = "en-us"
 title = "Thomas Ruiz Blog"
-theme = "ananke"
+theme = "hugo-paper"
 
 [params]
   dateFormat = "02 January 2006"
@@ -10,5 +10,5 @@ theme = "ananke"
   [[menu.main]]
     identifier = "about"
     name = "about me"
-    url = "/pages/intro"
+    url = "/pages/about-me"
 

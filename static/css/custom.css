@@ -1,0 +1,23 @@
+strong, b {
+    font-weight: 600;
+}
+
+.gif-container {
+    text-align: center;
+}
+
+.post-content figure h4 {
+    margin-top: .2rem;
+}
+
+.image-center {
+    text-align: center;
+}
+
+img {
+    display: inline;
+}
+
+.highlight > div {
+    background: transparent !important;
+}
