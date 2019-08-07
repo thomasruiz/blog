@@ -1,7 +1,6 @@
 ---
 title: "Going Live"
 date: 2019-08-06T18:46:55+02:00
-draft: true
 ---
 
 # Here we go!
@@ -76,7 +75,7 @@ $ git submodule add https://github.com/nanxiaobei/hugo-paper themes/hugo-paper
 $ echo 'theme = "hugo-paper"' >> config.toml
 ```
 
-{{< figure src="/posts/2019-08/going-live/it-works.png" title="And voilà, it works!" class="image-center" >}}
+{{< figure src="/posts/2019-08/going-live-files/it-works.png" title="And voilà, it works!" class="image-center" >}}
 
 ### A simple page
 

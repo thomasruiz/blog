@@ -4,7 +4,7 @@ set -e
 
 echo 'Deploying to github...'
 
-hugo
+HUGO_ENV=production hugo
 cd public
 git add .
 msg="rebuilding site $(date)"
