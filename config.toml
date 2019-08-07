@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "Thomas Ruiz Blog"
 theme = "hugo-paper"
 
+googleAnalytics = "UA-83359557-1"
+
 [params]
   dateFormat = "02 January 2006"
 

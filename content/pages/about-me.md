@@ -1,6 +1,7 @@
 ---
 title: "About me"
 type: "page"
+date: 2019-08-01
 ---
 
 Welcome to my blog! My name is Thomas Ruiz and I'm a french technical lead working at [Neoxia](https://neoxia.com). I work on a lot of technologies and has some knowledge I want to share with others.

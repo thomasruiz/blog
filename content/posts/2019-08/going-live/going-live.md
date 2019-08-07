@@ -1,6 +1,7 @@
 ---
 title: "Going Live"
 date: 2019-08-06T18:46:55+02:00
+draft: true
 ---
 
 # Here we go!
@@ -99,7 +100,7 @@ $ tee -a config.toml
   dateFormat = "02 January 2006"
 ```
 
-We're civilized, so we space out things. Why Jan 2 2006, you asked? (Because it's simply 1 2 3 4 5 6 7)[https://golang.org/pkg/time/#pkg-constants].
+We're civilized, so we space out things. Why Jan 2 2006, you asked? [Because it's simply 1 2 3 4 5 6 7](https://golang.org/pkg/time/#pkg-constants).
 
 #### Custom CSS
 
@@ -141,3 +142,6 @@ Now, I can start typing this blog post with a simple `hugo new posts/2019-08/goi
 
 I had to fix and figure out a few things, but overall it worked as expected. Now I've decided to deploy to github pages. Let's go! [There's even a guide](https://gohugo.io/hosting-and-deployment/hosting-on-github/) explaining everything, great.
 
+After a few clicks creating repositories, a few commands and some tweakering of DNS settings, we're live!
+
+I hope you liked what you read. There's still a few things I need to do, like setting up google analytics and a RSS flux.
